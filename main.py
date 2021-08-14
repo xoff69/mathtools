@@ -65,7 +65,7 @@ class FrameEvaluation(tk.Frame):
         label1.pack()
         self.entry1 = tk.Entry(self)
         self.entry1.pack()
-        bok = tk.Button(self,text='Evaluer la formule', command=self.calcFormula)
+        bok = tk.Button(self,text='Evaluer', command=self.calcFormula)
         bok.pack()
 
         self.f = Figure(figsize=(5, 5), dpi=100)
