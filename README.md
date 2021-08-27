@@ -8,9 +8,17 @@ Some Python tools for math and physics
 Comments, suggestions and improvements are welcome and appreciated.
 
 #### Examples
+
+astropy:
 import astropy
 x=zcalc(500,600)
 arcsec2parsec(5,10e9)
+
+ad:
+Le logiciel se propose de faire de l'analyse dimensionnelle à partir d'une boucle de saisie. Certaines dimensions sont connues mais il est possible d'en ajouter par saisie ou en modifiant le code.
+
+Syntaxe: k^3: nombre d'onde a la puissance 3 k c : impulsion (nombre d'onde * vitesse ) les derivees partielles s'ecrivent:
+
 
 #### License
 
